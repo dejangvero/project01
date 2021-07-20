@@ -27,7 +27,7 @@ This will install these plugins:
 "moment"
 ```
 ## Usage
-Replace ```email``` and ```password``` on the line 9 of the /cypress/integration/tests/create-contract-tests.js file with valid credentials.
+Replace ```email``` and ```password``` on line 9 of the /cypress/integration/tests/create-contract-tests.js file with valid credentials.
 To run the tests enter and confirm the following command.
 ```node
 npm test
