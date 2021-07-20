@@ -28,6 +28,7 @@ This will install these plugins:
 ```
 ## Usage
 Replace ```email``` and ```password``` on line 9 of the /cypress/integration/tests/create-contract-tests.js file with valid credentials.
+
 To run the tests enter and confirm the following command.
 ```node
 npm test
