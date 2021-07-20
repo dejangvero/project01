@@ -33,3 +33,5 @@ npm test
 ```
 This command will also generate and open an Allure report at the end.
 
+## Licence
+MIT
