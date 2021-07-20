@@ -5,11 +5,8 @@ describe('Create contract suite', ()=>
 {
     const createContractPage = new CreateContractPage()
 
-    beforeEach(function(){
-        cy.fixture('example').then(function (data) {
-            this.data = data
-        })
-        cy.login("dejo991@gmail.com", "888Izolirka1000h*")
+    beforeEach(function(){        
+        cy.login("email", "password")
         createContractPage.getCreateContactButton().click()                     
     })       
 
