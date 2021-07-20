@@ -1,0 +1,7 @@
+{
+    "defaultCommandTimeout": 9000,
+	"integrationFolder":"cypress/integration/tests",
+    "env": {
+        "url": "https://dev.deel.wtf/login"
+    }
+}
